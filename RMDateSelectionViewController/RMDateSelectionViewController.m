@@ -182,7 +182,6 @@ typedef enum {
 @property (nonatomic, strong) UIView *cancelAndSelectButtonContainer;
 @property (nonatomic, strong) UIView *cancelAndSelectButtonSeperator;
 @property (nonatomic, strong) UIButton *cancelButton;
-@property (nonatomic, strong) UIButton *selectButton;
 
 @property (nonatomic, strong) UIMotionEffectGroup *motionEffectGroup;
 

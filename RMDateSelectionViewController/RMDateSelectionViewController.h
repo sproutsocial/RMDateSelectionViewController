@@ -151,6 +151,11 @@ typedef void (^RMDateCancelBlock)(RMDateSelectionViewController *vc);
 @property (nonatomic, strong, readonly) UILabel *titleLabel;
 
 /**
+ * Select Button, we made it public so we can add the accessibility label to run KIF tests.
+ */
+@property (nonatomic, strong) UIButton *selectButton;
+
+/**
  *  When YES the now button is hidden. Default value is NO.
  *
  *  @warning If you want to change this property you must do this before showing the RMDateSelectionViewController or otherwise setting this property has no effect.
